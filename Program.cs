@@ -19,9 +19,9 @@ namespace bsr_dotnet_ef6
 
       using (var db = new BloggingContext(connectionString))
       {
-        //BlogInitialTests(db);
-        InsertTestData(db);
-        ListBlogs(db);
+        BlogInitialTests(db);
+        //InsertTestData(db);
+        //ListBlogs(db);
       }
     }
 
